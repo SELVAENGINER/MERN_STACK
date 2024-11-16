@@ -1,0 +1,135 @@
+.nav-link:hover{
+    color:rgb(255, 255, 255);
+}
+.nav-link{
+    color:rgb(255, 88, 17);
+}
+*{
+    font-family: "Jost";
+}
+.LOGO{
+    width: 60px;
+    height:60px;
+}
+.login-btn {
+    padding:10px 40px;
+    border:2px solid white;
+    color:rgb(251, 247, 247);
+    background-color:black ;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:30px;
+}
+.dropdwn{  
+     
+        background-color: #000000;
+        color: white;
+        padding:10px 20px; 
+        font-size: 16px;
+        border: 1px solid white;
+        cursor: pointer;
+       
+        transition: background-color 0.3s;
+      
+}
+.dropdwn:hover{ 
+    background-color: rgb(0, 0, 0);
+        color: white;
+        border: 1px solid rgb(255, 101, 18);
+}
+.login-btn:hover{
+
+    border:2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 88, 17);
+}
+.reg-btn {
+    padding:10px 40px;
+    border:2px solid white;
+    color:rgb(251, 247, 247);
+    background-color:orangered ;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:30px;
+}
+.reg-btn:hover{
+
+    border:2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background-color:black;
+}
+.login-back{
+    max-width: 100%;
+    
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-image: 
+       linear-gradient(
+          rgba(0, 0, 0, 0.801), 
+          rgba(0, 0, 0, 0.301)
+       ),
+       url('hex.jpg');
+    
+}
+
+.home-back{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: 
+       linear-gradient(
+          rgba(0, 0, 0, 0.801), 
+          rgba(0, 0, 0, 0.301)
+       ),
+       url('home-back.gif');
+}
+
+
+
+/*AGENT PAGE*/
+.agent-h1{
+    font-family: "Jost";
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.agent-h2 p{
+    font-family: "Orbitron";
+    font-size: 3em;
+    color:rgb(20, 220, 47);
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(20, 220, 47);
+}
+.agent-btn{
+    border: 1px solid white;
+    background-color: #000000;
+    color: white;
+    font-size: small;
+    margin-left:10px;
+}
+  
+
+/*USER */
+.user-h1{
+    font-family: "Jost";
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.user-h2 p{
+    font-family: "JOST";
+    font-size: 1.5em;
+    color:rgb(20, 220, 47);
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(20, 220, 47);
+}
+
+/*accordioadmin*/
+.acc-btn:hover {
+    background-color: rgb(0, 0, 0); /* Hover background color */
+    transform: scale(1.05); /* Slightly increase button size */
+    cursor: pointer; /* Change cursor to pointer */
+    
+  }

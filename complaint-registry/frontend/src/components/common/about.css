@@ -1,0 +1,85 @@
+.about-container {
+    padding: 20px;
+    font-family:"Jost";
+    max-width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-image: 
+        linear-gradient(
+           rgba(0, 0, 0, 0.801), 
+           rgba(0, 0, 0, 0.301)
+        ),
+        url('hex.jpg');
+     
+  }
+  
+  .about-header {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .about-header p {
+    font-size: 18px;
+    
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-description, .about-features, .about-team {
+width: 75%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-description h2, .about-features h2, .about-team h2 {
+   
+    margin-bottom: 15px;
+   
+  }
+  
+  .about-description p, .about-features ul, .about-team p {
+    font-size: 16px;
+  
+  }
+  
+  .about-features ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about-features li {
+    margin-bottom: 10px;
+  }
+  
+  .about-footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .about-footer p {
+    font-size: 16px;
+   color: aqua;
+   
+  }
+  
+  .about-footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .about-footer a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color:orangered;
+   
+  }
+  
